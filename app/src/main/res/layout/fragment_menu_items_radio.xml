@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuItemsRadioFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_0_sql"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="0. SQL" />
+
+                <Button
+                    android:id="@+id/button_1_step"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="1. STEP" />
+
+                <Button
+                    android:id="@+id/button_2_txp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="2. TXP" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_3_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="3. SAVE" />
+
+                <Button
+                    android:id="@+id/button_4_vox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="4. VOX" />
+
+                <Button
+                    android:id="@+id/button_5_wn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="5. WN" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_6_abr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="6. ABR" />
+
+                <Button
+                    android:id="@+id/button_7_tdx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="7. TDR" />
+
+                <Button
+                    android:id="@+id/button_8_beep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="8. BEEP" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_9_tot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="9. TOT" />
+
+                <Button
+                    android:id="@+id/button_10_r_dcs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="10. R-DCS" />
+
+                <Button
+                    android:id="@+id/button_11_r_ctcss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="11. R-CTCSS" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_12_t_dcs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="12. T-DCS" />
+
+                <Button
+                    android:id="@+id/button_13_t_ctcss"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="13. T-CTCSS" />
+
+                <Button
+                    android:id="@+id/button_14_voice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="14. Voice" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_15_ani_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="15. ANI-ID" />
+
+                <Button
+                    android:id="@+id/button_16_dtmfst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="16. DTMFST" />
+
+                <Button
+                    android:id="@+id/button_17_s_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="17. S-CODE" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_18_sc_rev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="18. SC-REV" />
+
+                <Button
+                    android:id="@+id/button_19_ptt_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="19. PTT-ID" />
+
+                <Button
+                    android:id="@+id/button_20_ptt_lt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="20. PTT-LT" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_21_mdf_a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="21. MDF-A" />
+
+                <Button
+                    android:id="@+id/button_22_mdf_b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="22. MDF-B" />
+
+                <Button
+                    android:id="@+id/button_23_bclo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="23. BCLO" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_24_autolk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="24. AUTOLK" />
+
+                <Button
+                    android:id="@+id/button_25_stf_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="25. STF-D" />
+
+                <Button
+                    android:id="@+id/button_26_offset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="26. OFFSET" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_27_mem_ch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="27. MEM-CH" />
+
+                <Button
+                    android:id="@+id/button_28_del_ch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="28. DEL-CH" />
+
+                <Button
+                    android:id="@+id/button_29_wt_led"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="29. WT-LED" />
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_30_rx_led"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="30. RX-LED" />
+
+                <Button
+                    android:id="@+id/button_31_tx_led"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="31. TX-LED" />
+
+                <Button
+                    android:id="@+id/button_32_al_mod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="32. AL-MOD" />
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_33_band"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="33. BAND" />
+
+                <Button
+                    android:id="@+id/button_34_tdr_ab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="34. TDR-AB" />
+
+                <Button
+                    android:id="@+id/button_35_ste"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="35. STE" />
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_36_rp_ste"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="36. RP-STE" />
+
+                <Button
+                    android:id="@+id/button_37_rpt_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="37. RPT-RL" />
+
+                <Button
+                    android:id="@+id/button_38_ponmsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="38. PONMSG" />
+            </TableRow>
+            <TableRow android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/button_39_roger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="39. ROGER" />
+
+                <Button
+                    android:id="@+id/button_40_ab_bp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="40. A/B-BP" />
+
+                <Button
+                    android:id="@+id/button_41_reset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="41. RESET" />
+            </TableRow>
+        </TableLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
